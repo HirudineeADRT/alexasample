@@ -12,7 +12,7 @@
         "filePath": "alexasample.js",
         "cursor": {
           "lineNumber": 2,
-          "column": 5
+          "column": 23
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -71,7 +71,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1585545064689
+    "lastSave": 1585557896268
   },
   "VCS_STATE": {
     "provider": "GitHub",
