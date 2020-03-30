@@ -27,12 +27,40 @@
             "config": {}
           }
         ]
+      },
+      "5bbd99d8-7e75-48f5-b30c-ed7af38b0685": {
+        "id": "5bbd99d8-7e75-48f5-b30c-ed7af38b0685",
+        "parent": null,
+        "name": "apicall.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "apicall.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1hiru1312testhiruany",
+            "config": {}
+          }
+        ]
       }
     },
     "openFiles": [
-      "2c0bee3f-6c93-4d31-b3a8-5bbe9b466629"
+      "2c0bee3f-6c93-4d31-b3a8-5bbe9b466629",
+      "5bbd99d8-7e75-48f5-b30c-ed7af38b0685"
     ],
-    "currentFileId": "2c0bee3f-6c93-4d31-b3a8-5bbe9b466629",
+    "currentFileId": "5bbd99d8-7e75-48f5-b30c-ed7af38b0685",
     "resources": {
       "alexaSK2062aea9dc3b43d0b4f3d47952090b10": {
         "name": "alexaSK2062aea9dc3b43d0b4f3d47952090b10",
@@ -42,6 +70,41 @@
           "verifiedID": true,
           "skillID": "amzn1.ask.skill.2062aea9-dc3b-43d0-b4f3-d47952090b10",
           "applicationID": ""
+        }
+      },
+      "apigusEast1hiru1312testhiruany": {
+        "name": "apigusEast1hiru1312testhiruany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "hiru1312",
+          "apiId": "9jlzhlqmxj",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "6lfukhtixf",
+          "existingResources": {
+            "/": "6lfukhtixf",
+            "/s3issuecheck": "89aekf",
+            "/0228/recognition": "9iqavy",
+            "/check": "fl6i90",
+            "/check/s3": "j4e0ex",
+            "/0228": "k7ebnd",
+            "/newprod": "rgjln9",
+            "/sample": "tc5zpx",
+            "/smoketest": "uu6qav",
+            "/kklk": "vf4n24",
+            "/sample/hiru": "xwhexr"
+          },
+          "resourceMode": 0,
+          "resourceName": "test/hiru",
+          "resourcePath": "/test/hiru",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "Test",
+          "stageDeploymentId": "sz6eai",
+          "mode": 1
         }
       }
     },
@@ -71,7 +134,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1585557896268
+    "lastSave": 1585563472327
   },
   "VCS_STATE": {
     "provider": "GitHub",
