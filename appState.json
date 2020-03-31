@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "alexasample.js",
         "cursor": {
-          "lineNumber": 2,
-          "column": 23
+          "lineNumber": 703,
+          "column": 1
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -21,12 +21,7 @@
           "memory": 128,
           "layers": []
         },
-        "triggers": [
-          {
-            "resourceName": "alexaSK2062aea9dc3b43d0b4f3d47952090b10",
-            "config": {}
-          }
-        ]
+        "triggers": []
       },
       "5bbd99d8-7e75-48f5-b30c-ed7af38b0685": {
         "id": "5bbd99d8-7e75-48f5-b30c-ed7af38b0685",
@@ -60,7 +55,7 @@
       "2c0bee3f-6c93-4d31-b3a8-5bbe9b466629",
       "5bbd99d8-7e75-48f5-b30c-ed7af38b0685"
     ],
-    "currentFileId": "5bbd99d8-7e75-48f5-b30c-ed7af38b0685",
+    "currentFileId": "2c0bee3f-6c93-4d31-b3a8-5bbe9b466629",
     "resources": {
       "alexaSK2062aea9dc3b43d0b4f3d47952090b10": {
         "name": "alexaSK2062aea9dc3b43d0b4f3d47952090b10",
@@ -134,7 +129,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1585563472327
+    "lastSave": 1585632547412
   },
   "VCS_STATE": {
     "provider": "GitHub",
